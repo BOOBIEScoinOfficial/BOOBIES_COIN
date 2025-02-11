@@ -55,7 +55,7 @@ let canCopy = true;
 function copyText() {
   if (!canCopy) return;
   canCopy = false;
-  navigator.clipboard.writeText("there will be token adress").then(() => {
+  navigator.clipboard.writeText("2Sy14sB6JzD1zcXbZgSA2BMgFEXvN4HzUg24emCypump").then(() => {
     const notification = document.getElementById("copy-notification");
     notification.classList.add("show");
     notification.classList.remove("hide");
